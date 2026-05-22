@@ -1,0 +1,37 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "hotkey-menu",
+  "title": "Hotkey Menu",
+  "description": "Visual cheat sheet for global hotkeys.",
+  "icon": "command-icon.png",
+  "author": "havy",
+  "categories": [
+    "Productivity"
+  ],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "index",
+      "title": "Show Hotkeys",
+      "description": "Displays a visual table of global hotkeys.",
+      "mode": "view",
+      "hotkey": "cmd+shift+h"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.104.18"
+  },
+  "devDependencies": {
+    "@raycast/utils": "^2.2.5",
+    "@types/node": "22.19.0",
+    "@types/react": "18.3.3",
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "ray build",
+    "dev": "ray dev",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "npx @raycast/api@latest publish"
+  }
+}

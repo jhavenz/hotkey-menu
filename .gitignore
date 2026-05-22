@@ -1,0 +1,11 @@
+.*
+*.md
+
+!.gitignore
+!README.md
+!package.json
+!tsconfig.json
+!assets/
+!src/
+!node_modules/
+!dist/
