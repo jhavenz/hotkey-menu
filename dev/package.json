@@ -1,8 +1,8 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
-  "name": "harness-keys",
-  "title": "HarnessKeys",
-  "description": "Baseline hotkey reference for Harness-compliant environments.",
+  "name": "hotkey-menu",
+  "title": "Hotkey Menu",
+  "description": "Visual cheat sheet for global hotkeys.",
   "icon": "command-icon.png",
   "author": "havy",
   "categories": [
